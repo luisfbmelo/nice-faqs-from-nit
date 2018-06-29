@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FAQs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-29 14:22+0000\n"
+"PO-Revision-Date: 2018-06-29 14:53+0000\n"
+"Last-Translator: administrator <luis.fb.melo@azores.gov.pt>\n"
+"Language-Team: Português\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+#: inc/cpt/FAQs.php:26 inc/cpt/FAQs.php:32 inc/cpt/FAQs.php:38
+msgid "FAQs"
+msgstr "FAQs"
+
+#: inc/cpt/FAQs.php:27 inc/cpt/FAQs.php:29 inc/cpt/FAQs.php:30
+#: inc/cpt/FAQs.php:31 inc/cpt/FAQs.php:33 inc/cpt/FAQs.php:34
+#: inc/cpt/FAQs.php:35 inc/cpt/FAQs.php:36
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/cpt/FAQs.php:28 inc/tax/catFaqs.php:26
+msgid "Add New"
+msgstr "Adicionar "
+
+#: inc/cpt/FAQs.php:29 inc/tax/catFaqs.php:27
+#, php-format
+msgid "Add New %s"
+msgstr "Adicionar %s"
+
+#: inc/cpt/FAQs.php:30 inc/tax/catFaqs.php:28
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: inc/cpt/FAQs.php:31 inc/tax/catFaqs.php:29
+#, php-format
+msgid "New %s"
+msgstr "Nova %s"
+
+#: inc/cpt/FAQs.php:32 inc/tax/catFaqs.php:30
+#, php-format
+msgid "All %s"
+msgstr "Todas %s"
+
+#: inc/cpt/FAQs.php:33 inc/tax/catFaqs.php:31
+#, php-format
+msgid "View %s"
+msgstr "Ver %s"
+
+#: inc/cpt/FAQs.php:34 inc/tax/catFaqs.php:32
+#, php-format
+msgid "Search %s"
+msgstr "Procurar %s"
+
+#: inc/cpt/FAQs.php:35 inc/tax/catFaqs.php:33
+#, php-format
+msgid "No %s found"
+msgstr "Não foram encontradas %s"
+
+#: inc/cpt/FAQs.php:36 inc/tax/catFaqs.php:34
+#, php-format
+msgid "No %s found in the Trash"
+msgstr "Não foram encontradas %s no Lixo"
+
+#: inc/cpt/FAQs.php:101
+msgid "Generic"
+msgstr "Geral"
+
+#: inc/tax/catFaqs.php:24 inc/tax/catFaqs.php:30 inc/tax/catFaqs.php:33
+#: inc/tax/catFaqs.php:34 inc/tax/catFaqs.php:36
+msgid "Categories"
+msgstr "Categorias"
+
+#: inc/tax/catFaqs.php:25 inc/tax/catFaqs.php:27 inc/tax/catFaqs.php:28
+#: inc/tax/catFaqs.php:29 inc/tax/catFaqs.php:31 inc/tax/catFaqs.php:32
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/tinymce/Buttons.php:69
+msgid "Add FAQs List"
+msgstr "Adicionar lista de FAQs"
+
+#. Description of the plugin
+msgid "Show FAQs in a nice way"
+msgstr ""
+
+#. Author of the plugin
+msgid "Luis Melo - NIT"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://luisfbmelo.com/"
+msgstr ""

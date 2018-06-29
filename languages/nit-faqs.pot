@@ -1,0 +1,100 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FAQs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-29 14:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+#: inc/cpt/FAQs.php:26 inc/cpt/FAQs.php:32 inc/cpt/FAQs.php:38
+msgid "FAQs"
+msgstr ""
+
+#: inc/cpt/FAQs.php:27 inc/cpt/FAQs.php:29 inc/cpt/FAQs.php:30
+#: inc/cpt/FAQs.php:31 inc/cpt/FAQs.php:33 inc/cpt/FAQs.php:34
+#: inc/cpt/FAQs.php:35 inc/cpt/FAQs.php:36
+msgid "FAQ"
+msgstr ""
+
+#: inc/cpt/FAQs.php:28 inc/tax/catFaqs.php:26
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt/FAQs.php:29 inc/tax/catFaqs.php:27
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: inc/cpt/FAQs.php:30 inc/tax/catFaqs.php:28
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/cpt/FAQs.php:31 inc/tax/catFaqs.php:29
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/cpt/FAQs.php:32 inc/tax/catFaqs.php:30
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: inc/cpt/FAQs.php:33 inc/tax/catFaqs.php:31
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: inc/cpt/FAQs.php:34 inc/tax/catFaqs.php:32
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: inc/cpt/FAQs.php:35 inc/tax/catFaqs.php:33
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: inc/cpt/FAQs.php:36 inc/tax/catFaqs.php:34
+#, php-format
+msgid "No %s found in the Trash"
+msgstr ""
+
+#: inc/cpt/FAQs.php:101
+msgid "Generic"
+msgstr ""
+
+#: inc/tax/catFaqs.php:24 inc/tax/catFaqs.php:30 inc/tax/catFaqs.php:33
+#: inc/tax/catFaqs.php:34 inc/tax/catFaqs.php:36
+msgid "Categories"
+msgstr ""
+
+#: inc/tax/catFaqs.php:25 inc/tax/catFaqs.php:27 inc/tax/catFaqs.php:28
+#: inc/tax/catFaqs.php:29 inc/tax/catFaqs.php:31 inc/tax/catFaqs.php:32
+msgid "Category"
+msgstr ""
+
+#: inc/tinymce/Buttons.php:69
+msgid "Add FAQs List"
+msgstr ""
+
+#. Description of the plugin
+msgid "Show FAQs in a nice way"
+msgstr ""
+
+#. Author of the plugin
+msgid "Luis Melo - NIT"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://luisfbmelo.com/"
+msgstr ""

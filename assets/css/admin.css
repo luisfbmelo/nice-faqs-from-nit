@@ -1,0 +1,8 @@
+.mce-ico.mce-i-faqs{
+    font-size: 20px;
+}
+
+.mce-ico.mce-i-faqs:before {
+    content: "\f488";
+    font-family: dashicons;
+}
