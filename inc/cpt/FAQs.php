@@ -123,7 +123,7 @@ class FAQsCPT implements iWithTax{
         if(count($tax_terms)>0){
             foreach ( $tax_terms as $term ) {
 
-                $childTerms = \App::getTermChild( $term, $tax, 'idx' );
+                $childTerms = self::getTermChild( $term, $tax, 'idx' );
 
                 $args = array(
                     'posts_per_page' => -1,
@@ -176,5 +176,46 @@ class FAQsCPT implements iWithTax{
         }
 
         return $html;
+    }
+
+    /**
+     * Get children of given term
+     */
+    public static function getTermChild($term, $tax, $key = 'name'){
+
+        $getTermsArgs = [
+            'taxonomy' => $tax,
+            'hide_empty' => 1,
+            'title_li' => '',
+            'echo' => 0,
+            'parent' => $term->term_id
+        ];
+
+        $term_children = get_terms($getTermsArgs);
+
+        $namearray = [];
+
+        if (sizeof($term_children)>0){
+
+            $i = 0;
+
+            foreach ( $term_children as $child ) {
+                // Get term data
+
+                // Skip empty terms
+                if( $child->count <= 0) {
+                    continue;
+                }
+
+                $namearray[$key!='idx' ? $child->name : $i] = $child;
+
+                $i++;
+            }
+
+            // Sort array by name
+            ksort($namearray);
+        }
+
+        return $namearray;
     }
 }
